@@ -44,11 +44,11 @@ The images from the dataset were padded to 1:1 aspect ratio and resized to 224x2
 Clone the repo and add 'Reverse_Search.ipynb' in your Google Drive. Open the file with Google Colaboratory and then follow instructions there.
 
 Run  
->reverse_image_search(< query_image >, < model >, < dataset_directory >, < vector_directory >, < generate > = True)
+>reverse_image_search(< query_image >, < dataset_directory >, < vector_directory >, generate = True)
 
 for the first query. This will generate vector files at vector_directory and then go on to find similar images
   
 Run
->reverse_image_search(< query_image >, < model >, < dataset_directory >, < vector_directory >, < generate > = False)
+>reverse_image_search(< query_image >, < dataset_directory >, < vector_directory >, generate = False)
 
 for further queries.
